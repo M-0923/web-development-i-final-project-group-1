@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    height: 120px;
+}
+#nav-main-txt{
+    font-weight: 700;
+}
+#nav-second-txt{
+    font-weight: 500;
+}
+nav a,div{
+    margin: 0px;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+.navbar-nav{
+    gap: 60px;
+}
