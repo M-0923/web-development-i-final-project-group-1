@@ -29,6 +29,7 @@ nav a,div{
     display: none;
 }
 
+
 @media (max-width: 768px) {
     #nav-web{
         display: none;
@@ -74,4 +75,33 @@ nav a,div{
     #mobile-nav-bar{
         display: none;
     }
+}
+
+
+/*Misato section css*/
+
+#book_visit {
+    background-color: #004643;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+#form {
+    width: 350px;
+}
+
+#garden_map {
+    width: 500px;
+    height: 400px;
+}
+
+#faq {
+    background-color: #ABD1C6;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+#accordionFlushExample {
+    width: 1000px;
+    margin: 0 auto;
 }
