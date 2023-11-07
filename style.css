@@ -6,19 +6,72 @@ nav{
     font-family: 'Poppins', sans-serif; 
     font-style: normal;
     height: 120px;
+    width: 100%;
 }
+
 #nav-main-txt{
     font-weight: 700;
+    padding: 10px;
 }
 #nav-second-txt{
     font-weight: 500;
 }
 nav a,div{
     margin: 0px;
-    padding: 20px;
-    margin-right: 50px;
-
+    padding: 10px;
+    width: auto;
 }
 .navbar-nav{
     gap: 60px;
+}
+
+#mobile-nav-bar{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #nav-web{
+        display: none;
+    }
+    #mobile-nav-bar{
+        display: block;
+        background-color: black;
+        height: 160px;
+    }
+    #nav-h1-mobile{
+        font-weight: 700;
+        font-size: 25px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding-top: 25px;
+        margin: 0px;
+    }
+    #items-mobile-nav,#single-items-nav-mobile{
+        display: inline;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    #mobile-nav-bar a{
+        font-weight: 500;
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    /* CSS rules for devices with a minimum width of 1024px */
+    #mobile-nav-bar{
+        display: none;
+    }
 }
