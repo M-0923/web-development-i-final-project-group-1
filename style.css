@@ -117,3 +117,85 @@ nav a,div{
         border-radius: 10px;
     }
 }
+
+#events {
+    padding: 60px 20px;
+    background-color: #004643;
+}
+
+#events .section-title {
+    color: #FFFF;
+}
+
+@media (max-width: 1024px) {
+    #events{
+        padding: 40px 20px;
+    }
+}
+
+.events-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:30px;
+}
+
+@media (max-width: 1024px) {
+    .events-row {
+        flex-direction: column;
+    }
+}
+
+.events-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 20px;
+    width: 370px;
+    border-radius: 20px;
+    border: 1px solid var(--CTA---Aqua-Squeeze, #E5F4F2);
+    background: #FFF;
+    box-shadow: 34px 29px 48px 0px rgba(51, 102, 255, 0.05);
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .events-card {
+        width: 320px;
+        gap: 0px;
+    }
+}
+
+.events-card-title {
+    color: #0F3433;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .events-card-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.events-card-description {
+    color: #2D2D2D;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+.events-card-price {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;   
+}
+
+@media (max-width: 1024px) {
+    .events-card-price {
+        font-size: 26px;
+    }
+}
