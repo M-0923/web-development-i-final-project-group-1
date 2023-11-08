@@ -91,3 +91,29 @@ nav a,div{
         font-size: 30px;
     }
 }
+
+
+.default-button {
+    display: inline-flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C84D4E;
+    border-radius: 20px;
+    background: #C84D4E;
+    color: #FFFF;
+    width: fit-content;
+    align-self: center;
+}
+
+.default-button:hover {
+    background: #792e2e;    
+    border: 1px solid #792e2e;
+}
+
+@media (max-width: 1024px) {
+    .default-button {
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+}
