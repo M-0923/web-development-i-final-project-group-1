@@ -100,6 +100,10 @@ nav a,div{
     margin: auto;
 }
 
+#form_btn {
+    background-color: #C84D4E;
+}
+
 #garden_map img{
     width: 500px;
     height: auto;
@@ -126,7 +130,7 @@ nav a,div{
     #garden_map {
         text-align: center;
     }
-    
+
     #accordionFlushExample {
         padding: 70px 50px;
     }
