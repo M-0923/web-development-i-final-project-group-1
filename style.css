@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif; 
 }
 nav{
-    font-family: 'Poppins', sans-serif; 
     font-style: normal;
     height: 120px;
     width: 100%;
@@ -70,12 +70,54 @@ nav a,div{
 
 }
 
+
+#first-section{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/VAN-GARDEN-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+}
+
+#header-text{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 500px; 
+   
+}
+
+#header-text h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px red
+}
+
+#red-button{
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #F9BC60;
+}
+
+#header-text h1{
+    font-size: 70px;
+}
+
 @media (min-width: 1024px) {
     /* CSS rules for devices with a minimum width of 1024px */
     #mobile-nav-bar{
         display: none;
     }
 }
+
 
 
 /*Misato section css*/
@@ -135,3 +177,160 @@ nav a,div{
         padding: 70px 50px;
     }
 }
+=======
+.section-title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+@media (max-width: 1024px) {
+    .section-title {
+        font-size: 30px;
+    }
+}
+
+
+.default-button {
+    display: inline-flex;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C84D4E;
+    border-radius: 20px;
+    background: #C84D4E;
+    color: #FFFF;
+    width: fit-content;
+    align-self: center;
+}
+
+.default-button:hover {
+    background: #792e2e;    
+    border: 1px solid #792e2e;
+}
+
+@media (max-width: 1024px) {
+    .default-button {
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+}
+
+#events {
+    padding: 60px 20px;
+    background-color: #004643;
+}
+
+#events .section-title {
+    color: #FFFF;
+}
+
+@media (max-width: 1024px) {
+    #events{
+        padding: 40px 20px;
+    }
+}
+
+.events-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:30px;
+}
+
+@media (max-width: 1024px) {
+    .events-row {
+        flex-direction: column;
+    }
+}
+
+.events-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 20px;
+    width: 370px;
+    border-radius: 20px;
+    border: 1px solid var(--CTA---Aqua-Squeeze, #E5F4F2);
+    background: #FFF;
+    box-shadow: 34px 29px 48px 0px rgba(51, 102, 255, 0.05);
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .events-card {
+        width: 320px;
+        gap: 0px;
+    }
+}
+
+.events-card-title {
+    color: #0F3433;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .events-card-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.events-card-description {
+    color: #2D2D2D;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+.events-card-price {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;   
+}
+
+@media (max-width: 1024px) {
+    .events-card-price {
+        font-size: 26px;
+    }
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 60px;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-contact{
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.footer-social-links {
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
