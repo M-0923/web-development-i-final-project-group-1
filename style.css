@@ -29,6 +29,7 @@ nav a,div{
     display: none;
 }
 
+
 @media (max-width: 768px) {
     #nav-web{
         display: none;
@@ -117,6 +118,66 @@ nav a,div{
     }
 }
 
+
+
+/*Misato section css*/
+
+#book_visit {
+    background-color: #004643;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    height: 500px;
+}
+
+#book_visit_box {
+    background-color: #fff;
+    margin:0 auto;
+    width: 800px;
+    transform: translateY(50px);
+    max-width: 100%;
+}
+
+#form {
+    width: 350px;
+    margin: auto;
+}
+
+#form_btn {
+    background-color: #C84D4E;
+}
+
+#garden_map img{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
+
+#faq {
+    background-color: #ABD1C6;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+#accordionFlushExample {
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 100px;
+}
+
+@media (max-width: 768px) {
+    #book_visit {
+        height: 900px;
+    }
+
+    #garden_map {
+        text-align: center;
+    }
+
+    #accordionFlushExample {
+        padding: 70px 50px;
+    }
+}
+=======
 .section-title {
     color: #000;
     text-align: center;
@@ -272,3 +333,4 @@ footer {
     display: flex;
     gap: 15px;
 }
+
