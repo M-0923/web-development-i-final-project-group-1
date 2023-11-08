@@ -84,15 +84,26 @@ nav a,div{
     background-color: #004643;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    height: 500px;
+}
+
+#book_visit_box {
+    background-color: #fff;
+    margin:0 auto;
+    width: 800px;
+    transform: translateY(50px);
+    max-width: 100%;
 }
 
 #form {
     width: 350px;
+    margin: auto;
 }
 
-#garden_map {
+#garden_map img{
     width: 500px;
-    height: 400px;
+    height: auto;
+    max-width: 100%;
 }
 
 #faq {
@@ -102,6 +113,21 @@ nav a,div{
 }
 
 #accordionFlushExample {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
+    padding: 70px 100px;
+}
+
+@media (max-width: 768px) {
+    #book_visit {
+        height: 900px;
+    }
+
+    #garden_map {
+        text-align: center;
+    }
+    
+    #accordionFlushExample {
+        padding: 70px 50px;
+    }
 }
