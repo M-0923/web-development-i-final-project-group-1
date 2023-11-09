@@ -177,7 +177,7 @@ nav a,div{
         padding: 70px 50px;
     }
 }
-=======
+
 .section-title {
     color: #000;
     text-align: center;
@@ -332,5 +332,94 @@ footer {
     padding: 0;
     display: flex;
     gap: 15px;
+}
+
+
+/* Andrea's section */
+
+#section-an {
+    background-color: #ABD1C6;
+    padding: 50px;
+    display: flex;
+}
+
+#cards-an {
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+#cards-an p {
+    text-align: left;
+    width: 65%;
+    padding: 0;
+    padding-top: 40px;
+    font-weight: 350;
+    align-self: stretch;
+    color: #2D2D2D;
+}
+
+#review {
+    text-align: center;
+}
+
+#review h1 {
+    font-weight: bold;
+}
+
+#subcards h3 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#subcards {
+    width: 40%;
+    text-align: center;
+}
+
+#group-cards {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width:768px) {
+    #cards-an {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        display: block;
+        padding: 30px;
+    }   
+    #group-cards {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    #cards-an p {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        padding-top: 40px;
+        font-weight: 350;
+        align-self: stretch;
+        color: #2D2D2D;
+    }
+
+    #review h1 {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #subcards h3 {
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #subcards {
+        width: 100%;
+        text-align: center;
+    }
 }
 
